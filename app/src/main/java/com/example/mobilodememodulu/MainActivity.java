@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(customerIntent);
             }
         });
-
     }
 
 }
