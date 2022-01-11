@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "368011110995",
+    "project_id": "mobilodemeanaliz",
+    "storage_bucket": "mobilodemeanaliz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368011110995:android:11110a1c4bf3bdc2f534a6",
+        "android_client_info": {
+          "package_name": "com.example.mobilodememodulu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368011110995-e2lffk98ob77l3q4b8itpqfddkfftknq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobilodememodulu",
+            "certificate_hash": "d26756b7a70d6e3e0556fc2f8fffd1b745c21ec5"
+          }
+        },
+        {
+          "client_id": "368011110995-fj7cpbvqddu6fv0h4qomiv6mee6isig9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-y49yw0fyv9TRBTvZLPK1ADVOzYFcM8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368011110995-fj7cpbvqddu6fv0h4qomiv6mee6isig9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

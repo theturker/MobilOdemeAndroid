@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MobilOdemeModulu</string>
+    <string name="strCustomer">Müşteriyim</string>
+    <string name="strCashier">Kasiyerim</string>
+    <string name="strPaymentStatus">Ödeme Durumu:</string>
+
+</resources>

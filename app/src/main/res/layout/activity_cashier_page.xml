@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CashierPage"
+    android:background="#CDC9A5">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".MainActivity"
+        android:visibility="gone"
+        android:gravity="center"
+        android:background="#CDC9A5"
+        >
+
+        <NumberPicker
+            android:id="@+id/np"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="Tamam"
+            android:layout_below="@id/np"
+            android:backgroundTint="#917B5E"
+            android:textColor="#EEE9BF"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#CDC9A5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:id="@+id/lnText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merhaba, Müşteriyim veya Kasiyerim butonları ile sürece başlayabilirsiniz."
+                tools:ignore="MissingConstraints"
+                android:gravity="center"
+                android:textColor="#917B5E"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/lnText">
+
+            <Button
+                android:id="@+id/btnCashier"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/strCashier"
+                android:layout_weight="0.9"
+                android:backgroundTint="#917B5E"
+                android:textColor="#EEE9BF"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"/>
+
+            <Button
+                android:id="@+id/btnCustomer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/strCustomer"
+                android:layout_weight="0.9"
+                android:backgroundTint="#917B5E"
+                android:textColor="#EEE9BF"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
